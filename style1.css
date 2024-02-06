@@ -1,0 +1,43 @@
+.comment {  
+    width: 75%;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px; 
+    padding: 16px; 
+    margin: 16px auto; 
+  }
+
+  .comment img {
+    float: left; 
+    margin-right: 20px; 
+    border-radius: 50%; 
+    width: 90px;
+  }
+  
+  .comment span {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+  .table{
+    background-image: url(https://cdn.glitch.me/28b10aa6-d803-4dcf-a54a-b84585dff530%2Fvector.png?v=1637412819368);
+  }
+
+  .tab{
+    display: flex;
+    justify-content: center;
+  }
+  .hop{
+    color: rgb(145, 93, 93);
+  }
+
+  
+  @media (max-width: 450px) {
+    .comment{
+      text-align: center;
+    }
+    .comment img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  }
